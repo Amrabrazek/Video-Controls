@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color-range</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+<body>
+    <video src="../MEDIA/big_buck_bunny.mp4" controls></video>
+
+    <input type="range" min="0" max="60" step="0.2" value="0"> 
+
+    <span id="time">0.00/0.00</span>
+
+    <br>
+
+    <input type="button" value="play">
+    <input type="button" value="stop">
+    <input type="button" value="<<">
+    <input type="button" value="<">
+    <input type="button" value=">">
+    <input type="button" value=">>">
+    <span>volume</span>
+    <input type="range" value="50" min="0" max="100" step="1" id="volume">
+    
+    <input type="button" value="Mute ">
+    <br>
+    <span>Speed</span>
+    <input type="range" value="1" min="0.5" max="2" step="0.25" id="speed">
+    <input type="button" value="Full Screen">
+
+    
+    <script src="../JS/script.js"></script>
+    
+</body>
+</html>

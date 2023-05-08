@@ -1,0 +1,27 @@
+
+input[type=range] {
+    width: 50%;
+  }
+
+#volume, #speed {
+    width: 15%;
+}
+
+div{
+    margin: 50px;
+}
+
+video {
+    width: 70%;
+    
+}
+
+input[type=range]:nth-of-type(1) {
+    width: 60%;
+}
+
+
+/* input[type=range]:nth-of-type(1){
+    background-color: red;
+    width:500px;
+} */
